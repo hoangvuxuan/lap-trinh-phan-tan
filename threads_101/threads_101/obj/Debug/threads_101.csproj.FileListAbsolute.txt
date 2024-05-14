@@ -5,3 +5,10 @@ D:\c#\threads_101\threads_101\obj\Debug\threads_101.csproj.AssemblyReference.cac
 D:\c#\threads_101\threads_101\obj\Debug\threads_101.csproj.CoreCompileInputs.cache
 D:\c#\threads_101\threads_101\obj\Debug\threads_101.exe
 D:\c#\threads_101\threads_101\obj\Debug\threads_101.pdb
+D:\c#\ltpt\threads_101\threads_101\bin\Debug\threads_101.exe.config
+D:\c#\ltpt\threads_101\threads_101\bin\Debug\threads_101.exe
+D:\c#\ltpt\threads_101\threads_101\bin\Debug\threads_101.pdb
+D:\c#\ltpt\threads_101\threads_101\obj\Debug\threads_101.csproj.AssemblyReference.cache
+D:\c#\ltpt\threads_101\threads_101\obj\Debug\threads_101.csproj.CoreCompileInputs.cache
+D:\c#\ltpt\threads_101\threads_101\obj\Debug\threads_101.exe
+D:\c#\ltpt\threads_101\threads_101\obj\Debug\threads_101.pdb

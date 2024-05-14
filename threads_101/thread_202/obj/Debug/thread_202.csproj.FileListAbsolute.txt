@@ -1,0 +1,7 @@
+D:\c#\ltpt\threads_101\thread_202\bin\Debug\thread_202.exe.config
+D:\c#\ltpt\threads_101\thread_202\bin\Debug\thread_202.exe
+D:\c#\ltpt\threads_101\thread_202\bin\Debug\thread_202.pdb
+D:\c#\ltpt\threads_101\thread_202\obj\Debug\thread_202.csproj.AssemblyReference.cache
+D:\c#\ltpt\threads_101\thread_202\obj\Debug\thread_202.csproj.CoreCompileInputs.cache
+D:\c#\ltpt\threads_101\thread_202\obj\Debug\thread_202.exe
+D:\c#\ltpt\threads_101\thread_202\obj\Debug\thread_202.pdb

@@ -33,9 +33,17 @@ namespace threads_101
                 return;
             }
 
-            for (int i = 0; i < num_list; i++)
+            for (int i = 0; i < num_list - 1; i++)
             {
                  list.Add(random.Next(1, 1000));
+            }
+
+            list.Add(20000);
+
+            Console.WriteLine("origin list: ");
+            foreach(int temp in list)
+            {
+                Console.WriteLine(temp);
             }
 
 
@@ -55,11 +63,23 @@ namespace threads_101
                 if (i == num_threads - 1)
                 {
                     list_child_list.Add(list.GetRange(i * child_size, N - i * child_size));
+                    Console.WriteLine("thread " + i + ": ");
+                    foreach (int l in list.GetRange(i * child_size, N - i * child_size))
+                    {
+                        Console.WriteLine(l);
+                    }
                 }
                 else
                 {
                     list_child_list.Add(list.GetRange(i * child_size, child_size));
+                    Console.WriteLine("thread " + i + ": ");
+                    foreach (int l in list.GetRange(i * child_size, child_size))
+                    {
+                        Console.WriteLine(l);
+                    }
                 }
+
+                
             }
 
             return list_child_list;
@@ -86,11 +106,11 @@ namespace threads_101
 
 
 
-        public static void find_max(List<List<int>> child_list, List<int> list)
+        public static void find_max(List<List<int>> child_list, List<int> child)
         {
             
-            int max = list.Max();
-            int i = child_list.IndexOf(list);
+            int max = child.Max();
+            int i = child_list.IndexOf(child);
 
             Console.WriteLine($"T{i}: {max} - {DateTime.Now}");
 
@@ -99,12 +119,8 @@ namespace threads_101
             {
                 Console.WriteLine($"final result: {max_list.Max()}");
             }
-            //Console.WriteLine(max + "---" + child_list.IndexOf(list));
+ 
 
         }
-
-
-
-
     }
 }
