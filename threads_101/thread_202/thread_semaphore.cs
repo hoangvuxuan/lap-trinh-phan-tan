@@ -86,16 +86,8 @@ namespace thread_202
                             int r_index = random.Next(0, f_list.Count - 1);
                             int a = f_list[r_index];
                             f_list.Remove(a);
-
-                            if(a % 2 == 0)
-                            {
-                                Console.WriteLine($"R{name}: {f_list.Max()} - is even -  {DateTime.Now} ");
-                            }
-                            else
-                            {
-                                Console.WriteLine($"R{name}: {f_list.Max()} - is odd -  {DateTime.Now} ");
-
-                            }
+                            string mess = a % 2 == 0 ? $"R{name}: {a} - is even -  {DateTime.Now} " : $"R{name}: {a} - is odd -  {DateTime.Now}";
+                            Console.WriteLine(mess);
 
                             semaphore.Release();
                             Thread.Sleep(random.Next(1000, 2000));

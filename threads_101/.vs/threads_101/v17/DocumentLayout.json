@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\c#\\ltpt\\threads_101\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1F92E46-4AE8-49C3-BA01-F5F2AFC649EC}|thread_202\\thread_202.csproj|D:\\c#\\ltpt\\threads_101\\thread_202\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1F92E46-4AE8-49C3-BA01-F5F2AFC649EC}|thread_202\\thread_202.csproj|solutionrelative:thread_202\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1F92E46-4AE8-49C3-BA01-F5F2AFC649EC}|thread_202\\thread_202.csproj|d:\\c#\\ltpt\\threads_101\\thread_202\\thread_semaphore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1F92E46-4AE8-49C3-BA01-F5F2AFC649EC}|thread_202\\thread_202.csproj|solutionrelative:thread_202\\thread_semaphore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1F92E46-4AE8-49C3-BA01-F5F2AFC649EC}|thread_202\\thread_202.csproj|d:\\c#\\ltpt\\threads_101\\thread_202\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1F92E46-4AE8-49C3-BA01-F5F2AFC649EC}|thread_202\\thread_202.csproj|solutionrelative:thread_202\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{297000BB-C06B-4453-BF6A-B29B5E8E3ADB}|threads_101\\threads_101.csproj|d:\\c#\\ltpt\\threads_101\\threads_101\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{297000BB-C06B-4453-BF6A-B29B5E8E3ADB}|threads_101\\threads_101.csproj|solutionrelative:threads_101\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\ltpt\\threads_101\\threads_101\\Program.cs",
+              "RelativeDocumentMoniker": "threads_101\\Program.cs",
+              "ToolTip": "D:\\c#\\ltpt\\threads_101\\threads_101\\Program.cs",
+              "RelativeToolTip": "threads_101\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T03:16:39.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "thread_semaphore.cs",
               "DocumentMoniker": "D:\\c#\\ltpt\\threads_101\\thread_202\\thread_semaphore.cs",
               "RelativeDocumentMoniker": "thread_202\\thread_semaphore.cs",
               "ToolTip": "D:\\c#\\ltpt\\threads_101\\thread_202\\thread_semaphore.cs",
               "RelativeToolTip": "thread_202\\thread_semaphore.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAACkAAAAxAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAAFkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T00:18:19.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\c#\\ltpt\\threads_101\\thread_202\\Program.cs",
               "RelativeDocumentMoniker": "thread_202\\Program.cs",
               "ToolTip": "D:\\c#\\ltpt\\threads_101\\thread_202\\Program.cs",
               "RelativeToolTip": "thread_202\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T00:09:59.295Z",
               "EditorCaption": ""
